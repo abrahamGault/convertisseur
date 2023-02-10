@@ -1,0 +1,39 @@
+@font-face {
+    font-family:Bold;
+    src: url(ka1.ttf);
+}
+
+h1{
+    font-size: 90px;
+    text-align: center;
+}
+
+h6{
+    font-size: 25px;
+}
+
+body{
+    background-color:#5DF0C1 ;
+    background-image: url(binaire.png);
+    font-family: Bold;
+}
+fieldset{
+    font-size: 30px;
+    text-align: center;
+    border: solid black 3px;
+    background-color: #34856B;
+}
+
+legend{
+    font-size: 35px;
+    padding: 5px;
+    border: solid black 3px;
+    background-color: #45B08E;
+}
+
+input[type='text'], input[type='number']{
+    text-transform:uppercase;
+    display: inline-block;
+    min-width: 40%;
+    min-height: 20px;
+}
